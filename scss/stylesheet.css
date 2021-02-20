@@ -1,0 +1,117 @@
+/* line 2, stylesheet.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 6, stylesheet.scss */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 24, stylesheet.scss */
+a {
+  color: #fff;
+}
+
+/* line 28, stylesheet.scss */
+.wapper {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../imageHome/background.jpg");
+  width: 100%;
+  height: 100%;
+}
+
+/* line 36, stylesheet.scss */
+.container {
+  margin-top: 30px;
+  padding: 0px;
+}
+
+/* line 42, stylesheet.scss */
+.main {
+  position: relative;
+  text-align: center;
+}
+/* line 46, stylesheet.scss */
+.main h3 {
+  margin-bottom: 15px;
+  color: #555;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+}
+
+/* line 62, stylesheet.scss */
+.main .button {
+  display: inline-block;
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color: #f778b8;
+  cursor: pointer;
+  box-shadow: 0 5px #e04893;
+}
+
+/* line 73, stylesheet.scss */
+.main .button {
+  display: inline-block;
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color: #f778b8;
+  cursor: pointer;
+  box-shadow: 0 5px #e04893;
+}
+
+/* line 84, stylesheet.scss */
+.main .button:hover {
+  opacity: 1;
+}
+
+/* line 88, stylesheet.scss */
+.main .button:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/* line 94, stylesheet.scss */
+.mainImage {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 100, stylesheet.scss */
+.sub-main {
+  margin-top: 100px;
+  position: relative;
+  text-align: center;
+}
+/* line 110, stylesheet.scss */
+.sub-main img {
+  height: 150px;
+  width: 200px;
+}
+
+/* line 116, stylesheet.scss */
+video {
+  margin-top: 60px;
+}
+
+/* line 120, stylesheet.scss */
+footer {
+  margin-top: 60px;
+}
